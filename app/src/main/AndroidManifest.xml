@@ -3,10 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.clientecontentprovider">
 
-    <permission
-        android:name="PERMISOLECTURA" />
-    <permission
-        android:name="PERMISOESCRITURA"/>
+    <uses-permission android:name="myper.READ" />
+    <uses-permission android:name="myper.WRITE" />
 
     <uses-permission android:name="PERMISOLECTURA"></uses-permission>
     <uses-permission android:name="PERMISOESCRITURA"></uses-permission>
